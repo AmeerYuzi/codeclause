@@ -1,0 +1,54 @@
+body {
+    background: url('3775549.jpg') center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+.card {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a semi-transparent white background */
+    border-radius: 10px; /* Optional: Add border-radius for a rounded appearance */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional: Add a subtle box shadow */
+}
+
+/* Rest of your existing styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #ff0090;
+    border-color: red;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-warning {
+    background-color: brown;
+    border-color: brown;
+    color: #000;
+}
+
+.btn-warning:hover {
+    background-color: #d39e00;
+    border-color: #d39e00;
+}   
